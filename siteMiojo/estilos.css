@@ -1,0 +1,103 @@
+/* estilos.css */
+
+/*
+seletor{
+    propriedade1: valor1;
+    propriedade2: valor2;
+}
+// Todos os elemeneos desta TAG
+p{
+    color: red;
+}
+
+// Um elemento com ID específico (atributo id no HTML)
+#idDoElemento{
+    margin: 10px
+}
+
+//Todos os elementos pertencentes o grupo (atributo class no HTML)
+.nomeDoGrupo{
+     background-clor: #FFC00;
+}
+
+// https:coolors.co -> cores
+// https://fonts.google.com -> fontes
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kalam&display=swap');
+
+body {
+    /* A cor de fundo */
+    background-color: #fefae0;
+}
+
+h1 {
+    /* Cor da fonte/texto */
+    color: #bc6c25;
+    font-family: 'Handlee', cursive;
+}
+
+h2 {
+    color: #dda15e;
+    font-family: 'Handlee', cursive;
+}
+
+h3 {
+    color: #dda15e;
+    font-family: 'Handlee', cursive;
+}
+
+p {
+    color: #964f11;
+}
+
+#primeiro {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.impar {
+    font-weight: 700;
+}
+
+.par {
+    font-style: italic;
+}
+
+div#menu a {
+    background-color: #dda15e;
+    color: #fefae0;
+    display: inline-block; /* confia */ 
+    padding: 5px 20px; /* espaçamento interno */
+    margin: 5px; /* espaçamento externo */ 
+    text-decoration: none; /* retira o sublinhado */
+    border-radius: 0px; /* borda arrendoda */
+    transition-duration: 0.5; /* estado quando o mouse está sobre o objeto */ 
+}
+
+div#menu a:hover {
+    background-color: #bc6c25;
+    border-radius: 10px;
+}
+
+img {
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+div a:hover {
+    background-color: #dda15e;
+    color: #fefae0;
+    display: inline-block; /* confia */ 
+    padding: 5px 20px; /* espaçamento interno */
+    margin: 5px; /* espaçamento externo */ 
+    text-decoration: none; /* retira o sublinhado */
+    border-radius: 0px; /* borda arrendoda */
+    transition-duration: 0.5;
+}
