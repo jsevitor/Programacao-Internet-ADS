@@ -3,7 +3,7 @@
 body {
     margin: 20;
     background-color: rgb(38, 75, 77);
-    background-image: url('Testee.png');
+    background-image: url('cp.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -25,11 +25,12 @@ body {
     border-radius: 5px;
     margin: 20px;
     background-color: rgb(38, 75, 77);
-    /*background-image: url('Testee.png');*/
+    background-image: url('outra1.png');
     box-shadow: 10px 5px 5px black;
 }
 
 .foto {
+    
     width: 65%;
     height: 40%;   
     border: 6px outset darkgrey; 
@@ -63,9 +64,12 @@ h4#nome {
 .bio {
     width: 95%;
     height: auto;
+    background-color: rgb(128, 128, 128, 0.8);
     border: 2px outset;
     margin: 10px auto auto auto;
+    
 }
+
 
 h5 {
     font-family: "Poppins";
@@ -79,6 +83,7 @@ p {
     font-style: italic;
     font-size: 12;
     text-align: justify;
+    color: whitesmoke;
     /* top right bottom left*/
     margin: 3px 10px 3px 10px;
 }
