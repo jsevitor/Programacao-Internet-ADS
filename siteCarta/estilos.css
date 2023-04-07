@@ -1,27 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,700&family=Rubik:wght@300&family=Wallpoet&display=swap');
 
 body {
     margin: 20;
+    background-color: rgb(38, 75, 77);
+    background-image: url('Testee.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.deck {
+
+.container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 .carta {
-    width: 350px;
-    height: 570px;
-    border: 2px outset darkgrey;
+    width: 300px;
+    height: 520px;
+    border: 10px outset #F0E602;
     border-radius: 5px;
     margin: 20px;
-    padding: 20px;
-    background-image: url('fundo2.jpg');
+    background-color: rgb(38, 75, 77);
+    /*background-image: url('Testee.png');*/
+    box-shadow: 10px 5px 5px black;
 }
 
 .foto {
-    width: 80%;
-    height: 50%;   
+    width: 65%;
+    height: 40%;   
     border: 6px outset darkgrey; 
     margin: auto;
 }
@@ -32,17 +42,21 @@ body {
 }
 
 .nome {
-    width: 95%;
+    width: 200px;
     height: auto;
-    border: 2px outset;
-    margin: auto auto 5px auto;
+    background-color: #F0E602;
+    border: 2px outset #F0E602;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
 }
 
-h3#nome {
-    font-family: "Poppins";
-    font-weight: 500;
-    color: whitesmoke;
-    text-align: center;
+h4#nome {
+    font-family: 'Wallpoet', cursive;
+    font-weight: 400;
+    font-size: 20;
+    color: black;
+    text-align: right;
     margin: auto;
 }
 
@@ -50,7 +64,7 @@ h3#nome {
     width: 95%;
     height: auto;
     border: 2px outset;
-    margin: 5px auto auto auto;
+    margin: 10px auto auto auto;
 }
 
 h5 {
@@ -63,16 +77,11 @@ h5 {
 p {
     font-family: "Rubik";
     font-style: italic;
-    font-size: 15;
+    font-size: 12;
     text-align: justify;
     /* top right bottom left*/
-    margin: 5px 10px 5px 10px;
+    margin: 3px 10px 3px 10px;
 }
-/*p#bio {
-    text-align: justify;
-    /* top right bottom left*
-    margin: 5px 10px 5px 10px;
-}*/
 
 .habilidade {
     width: 95%;
@@ -92,6 +101,17 @@ p#habilidade {
     height: auto;
     border: 2px outset;
     margin: 5px auto 10px auto; 
+}
+
+img#verso {
+    width: 300px;
+    height: 520px;
+    background-size: cover;
+}
+
+.carta#verso {
+    width: 300px;
+    height: 520px;
 }
 
 
