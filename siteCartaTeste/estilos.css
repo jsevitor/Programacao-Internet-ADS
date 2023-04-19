@@ -43,11 +43,12 @@ body {
 .carta-frente {
     background-image: url('imagens/frente_carta.png');
     transform: rotateY(180deg);
+    
 }
 
 .carta-verso {
     background-image: url('imagens/verso_carta.png');
-    background-size: 300px 520px;
+    background-size: 300px 520px;   
 }
 
 .carta:hover {
